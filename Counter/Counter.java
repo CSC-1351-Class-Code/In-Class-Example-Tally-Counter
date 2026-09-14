@@ -2,25 +2,25 @@ package Counter;
 
 // This class serves as a code example of a click counter
 public class Counter {
-	private int count;
+	private int __;
 
 	public Counter(){
-		count = 0;
+		__ = _;
 	}
 
 	// increments the count of the instance
 	public void Click(){
-		count++;
+		___;
 	}
 
 	// resets the count of the instance
 	public void Reset(){
-		count = 0;
+		__ = _;
 	}
 
 	// NOTE - this could also be a toString method or at least adapted to one
 	public void Display(){
-		System.out.println("Number of clicks :: " + count);
+		System.out.println("Number of clicks :: " + __);
 	}
 
 }
